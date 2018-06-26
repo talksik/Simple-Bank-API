@@ -1,0 +1,22 @@
+{
+  "name": "simple-bank-api",
+  "version": "1.0.0",
+  "description": "Please check docs for proper functionality explanation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/talksik/Simple-Bank-API.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/talksik/Simple-Bank-API/issues"
+  },
+  "homepage": "https://github.com/talksik/Simple-Bank-API#readme",
+  "dependencies": {
+    "mysql": "^2.15.0"
+  }
+}
