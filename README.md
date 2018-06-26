@@ -25,4 +25,4 @@ DEPOSIT/WITHDRAW:
 BONUS: The nice DB structure allows accessing permissions and modulating the helpers for checking account balance and also checking if a certain deposit/withdraw is within the user's limits.
 Should call these functions in practically every relevant HTTP request made. 
 
-**Note: The permissions table in the diagram I sent by email does not and should include the columns for lower and upper limits for the account, but my local database does. 
+**Note: The permissions table in the diagram I sent by email does not and should include the columns for lower and upper limits for the account, but my local database does. Also, now that I think about it, the map_id of the permissions table should link to the accounts table, in case a user's individual accounts have their own distint permissions. I am unsure if banks really account for this.
